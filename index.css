@@ -47,4 +47,43 @@ table {
 	border-spacing: 0;
 }
 
-/*First Section*/
+/*Entire Page*/
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*Navigation Bar*/
+
+.plan {
+    background-color: #FF764E;
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+
+.get-involved {
+    background-color: #FFCD69;
+}
+
+/*Header*/
+
+h1 {
+    font-family: 'Chelsea Market', cursive; 
+}
+
+/*Intro*/
+
+.intro {
+    background-color: #DDB9A3;
+}
+
+span {
+    font-weight: bold;
+}
+
+/*Footer*/
+
+#footer {
+    background-color: #F9E7DC;
+}
