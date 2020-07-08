@@ -48,14 +48,34 @@ table {
 }
 
 /*Entire Page*/
+
 html {
     font-family: 'Roboto Mono', monospace;
+    font-size: 62.5%;
 }
 
 /*Navigation Bar*/
 
+.nav {
+    width:100%;
+    margin: 5% 35%;
+}
+
+.plan, .learn, .get-involved {
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 3.5rem;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 5%;
+}
+
 .plan {
-    background-color: #FF764E;
+    background-color: #FF764E; 
 }
 
 .learn {
@@ -68,22 +88,77 @@ html {
 
 /*Header*/
 
+.header-image {
+    width:20%;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.header-title {
+    width: 80%;
+    display: inline-block;
+    margin: 0 12%;
+}
+
 h1 {
     font-family: 'Chelsea Market', cursive; 
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.slogan {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h3 {
+    padding: 1rem;
 }
 
 /*Intro*/
 
+.intro-container {
+    margin: 4rem 4rem 0rem 4rem;
+    background-color: white; 
+}
+
 .intro {
     background-color: #DDB9A3;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.intro p {
+    padding: 1rem;
 }
 
 span {
     font-weight: bold;
 }
 
+/*Body*/
+
+.announcements-container {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 525px 100px 525px;
+}
+
+.fire-icon {
+    padding: 2rem;
+}
+
+.reservations-icon {
+    padding: 2rem;
+}
+
 /*Footer*/
 
-#footer {
+footer {
     background-color: #F9E7DC;
+}
+
+.footer-image{
 }
