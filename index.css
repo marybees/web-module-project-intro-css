@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Entire Page*/
+
+html {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 62.5%;
+}
+
+/*Navigation Bar*/
+
+.nav {
+    text-align: center;
+    padding: 3% 10% 3% 10%;
+   
+}
+
+.plan, .learn, .get-involved {
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 3.5rem;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 5%;
+}
+
+.plan {
+    background-color: #FF764E; 
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+
+.get-involved {
+    background-color: #FFCD69;
+}
+
+/*Header*/
+
+.header-container {
+    display: inline-block;
+    margin: 0 10%;
+}
+
+.title-container {
+    width:100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.title-container img {
+    width:55%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 500px;
+}
+
+.text-container {
+    display: inline-block; 
+    margin: 0;
+    vertical-align: top;
+    width: 50%
+}
+
+.image-container {
+    display: inline-block;
+    width: 25%;
+    margin:0;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive; 
+    font-size: 5rem;
+    text-align: center;
+    padding: 2rem;
+    display: inline-block;
+   
+}
+
+.title-container p {
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/*Intro*/
+
+.intro-container {
+    margin: 4rem 4rem 0rem 4rem;
+    background-color: white; 
+}
+
+.intro {
+    background-color: #DDB9A3;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.intro p {
+    padding: 1rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+/*Body*/
+
+.announcements-container {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 40% 5% 40%;
+}
+
+.fire-icon {
+    padding: 10%;
+}
+
+.reservations-icon {
+    padding: 10%;
+}
+
+/*Footer*/
+
+.footer-image {
+background: url('/assets/footer_img.jpg');
+background-size: cover;
+background-position: top;
+width: 100%;
+height: 20rem;
+}
+
+#footer {
+    background-color: #F9E7DC;
+}
